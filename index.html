@@ -1,0 +1,74 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <h1>Weather App</h1>
+    <div class="container">
+      <div class="weather-input">
+        <h3>Enter a City Name</h3>
+        <input
+          class="city-input"
+          type="text"
+          placeholder="Please enter your city..."
+          spellcheck="false"
+        />
+        <div class="error">Incorrect City Name</div>
+        <button type="button" class="search-btn">Search</button>
+        <div class="separator"></div>
+        <button type="button" class="location-btn">Use current loaction</button>
+      </div>
+
+      <div class="weather-data">
+        <div class="current-weather">
+          <!-- <div class="details">
+            <h2>_____ (_____)</h2>
+            <h4>Temperature: __°c</h4>
+            <h4>Wind: __ M/S</h4>
+            <h4>Humidity: __%</h4>
+          </div> -->
+        </div>
+        <div class="days-forecast">
+          <h2 class="days-forecast-header">5-Day Forecast:</h2>
+          <ul class="weather-cards">
+            <!--   <li class="card">
+              <h2>(_____)</h2>
+              <h4>Temp: __°c</h4>
+              <h4>Wind: __ M/S</h4>
+              <h4>Humidity: __%</h4>
+            </li>
+            <li class="card">
+              <h2>(_____)</h2>
+              <h4>Temp: __°c</h4>
+              <h4>Wind: __ M/S</h4>
+              <h4>Humidity: __%</h4>
+            </li>
+            <li class="card">
+              <h2>(_____)</h2>
+              <h4>Temp: __°c</h4>
+              <h4>Wind: __ M/S</h4>
+              <h4>Humidity: __%</h4>
+            </li>
+            <li class="card">
+              <h2>(_____)</h2>
+              <h4>Temp: __°c</h4>
+              <h4>Wind: __ M/S</h4>
+              <h4>Humidity: __%</h4>
+            </li>
+            <li class="card">
+              <h2>(_____)</h2>
+              <h4>Temp: __°c</h4>
+              <h4>Wind: __ M/S</h4>
+              <h4>Humidity: __%</h4>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
